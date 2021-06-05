@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class SimulatedAnnealing {
-	private double t;   
+    private double t;   
     private double a;   
     private int niter;  
     public ArrayList<Double> hist;
@@ -72,7 +72,7 @@ public class SimulatedAnnealing {
 		    sa.solve(new Problem() {
 	            @Override
 	            public double fit(double a, double b) {
-	                return 10000*a*a + 200*a*b + b*b - 140000*a - 1400*b + 490000 ;
+	                return 10000*a*a + 200*a*b + b*b - 140000*a - 1400*b + 490000 ;  
 	            }
 
 	            @Override
