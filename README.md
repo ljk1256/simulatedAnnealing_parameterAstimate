@@ -54,7 +54,7 @@ public static void main(String[] args) {
 
 ![데이터, 모델 설정](https://postfiles.pstatic.net/MjAyMTA2MDZfMTYz/MDAxNjIyOTEzMzcyNTcy.oce7_RSNkeht_IioGCqHWKGbsg5HgSQ2ZiJ1VxbJDC0g.pmsHooilvIE_t-ofHXwX--rAp5LCjUS9HdBiutt1keIg.PNG.ljk1256/%EA%B2%B0%EA%B3%BC_%EA%B0%92.png?type=w580)
 
-* 위 데이터는 SimulatedAnnealing 을 통한 cost function, parameter (a, b) 값 이다.
+* 위 데이터는 순서대로 SimulatedAnnealing 을 통한 cost function, parameter (a, b) 값 이다.
 * 두 번째 값을 보면 거의 근사 한 것을 볼 수 있다.
 * 오차를 생각 한다면, 실제 값 a = 4, b = 300 과 유사한 것을 알 수 있다.
 
